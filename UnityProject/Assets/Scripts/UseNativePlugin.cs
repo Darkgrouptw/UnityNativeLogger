@@ -10,15 +10,10 @@ public class UseNativePlugin : MonoBehaviour
 
 	private void Start()
 	{
-		StartCoroutine(Timer());
-	}
+		UnityEngine.Random.InitState(System.DateTime.Now.Second);
+		float randNum = UnityEngine.Random.value;
+		Debug.Log("Unity Log: " + randNum.ToString());
 
-	private IEnumerator Timer()
-	{
-		while (true)
-		{
-			yield return new WaitForEndOfFrame();
-			SendDataFromUnityToLog(Time.timeSinceLevelLoad);
-		}
+		SendDataFromUnityToLog(randNum);
 	}
 }

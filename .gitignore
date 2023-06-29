@@ -73,3 +73,5 @@ UnityProject/[Aa]ssets/[Ss]treamingAssets/aa/*
 NativePlugin/Projects/x64
 *.exp
 *.lib
+UnityProject/Assets/Plugins/NativePlugin.exp.meta
+UnityProject/Assets/Plugins/NativePlugin.lib.meta
