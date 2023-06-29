@@ -17,4 +17,4 @@ To demonstrate ***The Simplest way*** to print(warp) message from native code.
 https://docs.unity3d.com/Manual/NativePluginInterface.html
 
 ## Other
-寫成是真的要會通靈 =..=
+寫程式真的要會通靈 =..=
