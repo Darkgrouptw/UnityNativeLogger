@@ -1,5 +1,8 @@
 
 # UnityNativeLogger
+![License](https://img.shields.io/badge/License-MIT-Gray)
+
+
 To demonstrate ***The Simplest way*** to print(warp) message from native code.
 
 ![Result](https://raw.githubusercontent.com/Darkgrouptw/UnityNativeLogger/main/Images/Result.png)
